@@ -4,7 +4,9 @@ public class App {
 
     public static void main(String[] args) {
         var context = "hello world";
-        System.out.println(context);
+        var interpreter = new StartWithCapitalLetter();
+        var context_ = interpreter.interpret(context);
+        System.out.println(context_);
     }
 
 }
