@@ -9,5 +9,5 @@ package com.example;
  * @author mstf
  */
 public interface MediaPlayerState {
-    void pressButton();
+    void pressButton(MediaPlayer mediaPlayer);
 }
