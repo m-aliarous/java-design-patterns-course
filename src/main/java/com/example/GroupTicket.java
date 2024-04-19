@@ -20,4 +20,9 @@ public class GroupTicket implements TicketElement {
         return elements;
     }
 
+    @Override
+    public void accept(ElementVisitor visitor) {
+        visitor.visit(this);
+    }
+
 }
